@@ -28,6 +28,7 @@ gem 'active_link_to'
 gem 'humanize'
 gem 'kaminari'
 gem 'searchkick'
+gem 'simple_form'
 
 gem 'devise', github: 'heartcombo/devise', branch: 'master'
 
