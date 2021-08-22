@@ -31,6 +31,10 @@ gem 'searchkick'
 gem 'simple_form'
 gem 'sitemap_generator'
 
+# image processing
+gem 'carrierwave', '~> 2.0'
+gem "mini_magick"
+
 gem 'devise', github: 'heartcombo/devise', branch: 'master'
 
 # Use Active Storage variant
