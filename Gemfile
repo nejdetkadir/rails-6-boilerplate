@@ -30,6 +30,7 @@ gem 'kaminari'
 gem 'searchkick'
 gem 'simple_form'
 gem 'sitemap_generator'
+gem 'rails-settings-cached'
 
 # image processing
 gem 'carrierwave', '~> 2.0'
