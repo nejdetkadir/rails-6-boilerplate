@@ -24,6 +24,7 @@ gem 'jbuilder', '~> 2.7'
 
 gem 'slim'
 gem 'ruby-progressbar'
+gem 'active_link_to'
 
 gem 'devise', github: 'heartcombo/devise', branch: 'master'
 
