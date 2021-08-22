@@ -48,6 +48,7 @@ group :development do
   gem 'spring'
 
   gem "better_errors"
+  gem 'faker', :git => 'https://github.com/faker-ruby/faker.git', :branch => 'master'
 end
 
 group :test do
