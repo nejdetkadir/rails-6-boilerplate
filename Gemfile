@@ -24,6 +24,8 @@ gem 'jbuilder', '~> 2.7'
 
 gem 'slim'
 
+gem 'devise', github: 'heartcombo/devise', branch: 'master'
+
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 
