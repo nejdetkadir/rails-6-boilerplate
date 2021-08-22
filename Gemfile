@@ -23,6 +23,7 @@ gem 'jbuilder', '~> 2.7'
 # gem 'bcrypt', '~> 3.1.7'
 
 gem 'slim'
+gem 'ruby-progressbar'
 
 gem 'devise', github: 'heartcombo/devise', branch: 'master'
 
