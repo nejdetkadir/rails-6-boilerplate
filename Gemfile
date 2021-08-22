@@ -29,6 +29,7 @@ gem 'humanize'
 gem 'kaminari'
 gem 'searchkick'
 gem 'simple_form'
+gem 'sitemap_generator'
 
 gem 'devise', github: 'heartcombo/devise', branch: 'master'
 
