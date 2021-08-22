@@ -26,6 +26,7 @@ gem 'slim'
 gem 'ruby-progressbar'
 gem 'active_link_to'
 gem 'humanize'
+gem 'kaminari'
 
 gem 'devise', github: 'heartcombo/devise', branch: 'master'
 
