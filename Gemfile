@@ -41,6 +41,7 @@ gem 'devise', github: 'heartcombo/devise', branch: 'master'
 # omniauths
 gem 'omniauth-google-oauth2'
 gem 'omniauth-github', github: 'omniauth/omniauth-github', branch: 'master'
+gem 'omniauth-facebook'
 gem 'omniauth-rails_csrf_protection'
 
 # Use Active Storage variant

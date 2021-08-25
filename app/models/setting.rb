@@ -13,4 +13,6 @@ class Setting < RailsSettings::Base
   field :omniauth_google_client_secret, default: (ENV["OA_GOOGLE_SECRET"] || ""), type: :string
   field :omniauth_github_client_id, default: (ENV["OA_GITHUB_CLIENT_ID"] || ""), type: :string
   field :omniauth_github_client_secret, default: (ENV["OA_GITHUB_SECRET"] || ""), type: :string
+  field :omniauth_facebook_client_id, default: (ENV["OA_FACEBOOK_CLIENT_ID"] || ""), type: :string
+  field :omniauth_facebook_client_secret, default: (ENV["OA_FACEBOOK_SECRET"] || ""), type: :string
 end
