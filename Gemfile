@@ -31,6 +31,7 @@ gem 'searchkick'
 gem 'simple_form'
 gem 'sitemap_generator'
 gem 'rails-settings-cached'
+gem 'friendly_id', '~> 5.4.0'
 
 # image processing
 gem 'carrierwave', '~> 2.0'

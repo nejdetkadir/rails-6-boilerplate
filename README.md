@@ -16,8 +16,10 @@ A starter template for [Ruby on Rails](https://rubyonrails.org/)
 - [devise](https://github.com/heartcombo/devise) with omniauths
   - [omniauth-google-oauth2](https://github.com/zquestz/omniauth-google-oauth2)
   - [omniauth-github](https://github.com/omniauth/omniauth-github)
+  - [omniauth-facebook](https://github.com/simi/omniauth-facebook)
 - [better_errors](https://github.com/BetterErrors/better_errors)
 - [faker](https://github.com/faker-ruby/faker)
+- [friendly_id](https://github.com/norman/friendly_id)
 
 # Installation
 ## Prerequisites
