@@ -269,21 +269,9 @@ Devise.setup do |config|
   config.sign_out_via = :delete
 
   # ==> OmniAuth
-  # Add a new OmniAuth provider. Check the wiki for more information on setting
-  # up on your models and hooks.
-  if Setting.omniauth_google_client_id.present?
-    config.omniauth :google_oauth2, Setting.omniauth_google_client_id, Setting.omniauth_google_client_secret, {}
-  end
-
-  if Setting.omniauth_github_client_id.present?
-    config.omniauth :github, Setting.omniauth_github_client_id, Setting.omniauth_github_client_secret, scope: 'user,public_repo'
-  end
-
-  if Setting.omniauth_facebook_client_id.present?
-    config.omniauth :facebook, Setting.omniauth_facebook_client_id, Setting.omniauth_facebook_client_secret
-  end
-  # config.omniauth :github, 'APP_ID', 'APP_SECRET', scope: 'user,public_repo'
-
+  config.omniauth :google_oauth2, Setting.omniauth_google_client_id, Setting.omniauth_google_client_secret, {}
+  config.omniauth :github, Setting.omniauth_github_client_id, Setting.omniauth_github_client_secret, scope: 'user,public_repo'
+  config.omniauth :facebook, Setting.omniauth_facebook_client_id, Setting.omniauth_facebook_client_secret
   # ==> Warden configuration
   # If you want to use other strategies, that are not supported by Devise, or
   # change the failure app, you can configure them inside the config.warden block.
