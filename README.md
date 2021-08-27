@@ -67,3 +67,8 @@ A starter template for [Ruby on Rails](https://rubyonrails.org/)
   ```bash
   rails db:drop
   ``` 
+
+# LICENSE
+```
+GNU GENERAL PUBLIC LICENSE Version 3
+```
