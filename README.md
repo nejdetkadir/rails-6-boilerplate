@@ -3,7 +3,7 @@ A starter template for [Ruby on Rails](https://rubyonrails.org/)
 
 # Features
 - Custom error pages
-- I18n support
+- [I18n support](https://guides.rubyonrails.org/i18n.html)
   - English
   - Turkish
 - Installed Gems
