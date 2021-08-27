@@ -3,6 +3,7 @@
 class Users::RegistrationsController < Devise::RegistrationsController
   # before_action :configure_sign_up_params, only: [:create]
   # before_action :configure_account_update_params, only: [:update]
+  prepend_before_action :check_captcha, only: :create
 
   # GET /resource/sign_up
   # def new
@@ -28,7 +29,21 @@ class Users::RegistrationsController < Devise::RegistrationsController
   # def destroy
   #   super
   # end
+  private
 
+  def check_captcha
+    return if verify_recaptcha || Setting.recaptcha_site_key.to_s.empty?
+
+    self.resource = resource_class.new sign_up_params
+    resource.validate # Look for any other validation errors besides reCAPTCHA
+    set_minimum_password_length
+    respond_with_navigational(resource) do
+      # flash.discard(:recaptcha_error) # We need to discard flash to avoid showing it on the next page reload
+      resource.errors.add(:recaptcha, flash[:recaptcha_error].gsub("reCAPTCHA ", ""))
+      render :new
+    end
+  end
+  
   # GET /resource/cancel
   # Forces the session data which is usually expired after sign
   # in to be expired now. This is useful if the user wants to
