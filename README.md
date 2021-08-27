@@ -1,3 +1,5 @@
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/37165033253842d78006d961e892ec02)](https://www.codacy.com/gh/nejdetkadir/rails-boilerplate/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=nejdetkadir/rails-boilerplate&amp;utm_campaign=Badge_Grade)
+
 # Rails Boilerplate
 A starter template for [Ruby on Rails](https://rubyonrails.org/)
 
