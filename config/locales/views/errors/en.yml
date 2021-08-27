@@ -1,0 +1,8 @@
+en:
+  errors:
+    not_found:
+      title: Page Not Found
+    internal_error:
+      title: Server Error
+    unacceptable:
+      title: Unaccepted Request

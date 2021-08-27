@@ -1,0 +1,18 @@
+tr:
+  registrations:
+    new:
+      title: Kayıt Ol
+    create:
+      title: Kayıt Ol
+  sessions:
+    new:
+      title: Giriş Yap
+    destroy:
+      title: Çıkış Yap
+  passwords:
+    new:
+      title: Şifremi Sıfırla
+    create:
+      title: Şifre Sıfırla
+    edit:
+      title: Şifre Sıfırla

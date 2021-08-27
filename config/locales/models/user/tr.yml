@@ -1,0 +1,28 @@
+tr:
+  activerecord:
+    models:
+      user: Kullanıcı
+    attributes:
+      user: &user_attributes
+        id: Id
+        email: E-posta
+        password: Parola
+        password_confirmation: Parola Doğrulama
+        role: Rol
+        remember_me: Beni Hatırla
+        created_at: Hesap Oluşturma Tarihi
+        updated_at: Hesap Güncelleme Tarihi
+        roles:
+          user: Kullanıcı
+          admin: Yönetici
+    errors:
+      models:
+        user:
+          attributes:
+            email:
+              blank: boş bırakılamaz
+            recaptcha: doğrulaması başarısız
+            password:
+              blank: boş bırakılamaz
+            current_password:
+              blank: boş bırakılamaz

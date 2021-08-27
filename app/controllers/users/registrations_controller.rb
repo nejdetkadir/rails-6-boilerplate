@@ -39,7 +39,9 @@ class Users::RegistrationsController < Devise::RegistrationsController
     set_minimum_password_length
     respond_with_navigational(resource) do
       # flash.discard(:recaptcha_error) # We need to discard flash to avoid showing it on the next page reload
-      resource.errors.add(:recaptcha, flash[:recaptcha_error].gsub("reCAPTCHA ", ""))
+      if flash[:recaptcha_error]
+        resource.errors.add(:recaptcha, t('activerecord.errors.models.user.attributes.recaptcha'))
+      end
       render :new
     end
   end

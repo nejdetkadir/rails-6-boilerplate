@@ -1,0 +1,22 @@
+en:
+  activerecord:
+    models:
+      user: User
+    attributes:
+      user: &user_attributes
+        id: Id
+        email: Email
+        password: Password
+        password_confirmation: Password Confirmation
+        role: Role
+        remember_me: Remember me
+        created_at: Created At
+        updated_at: Updated At
+        roles:
+          user: User
+          admin: Admin
+    errors:
+      models:
+        user:
+          attributes:
+            recaptcha: verification failed

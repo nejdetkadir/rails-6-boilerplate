@@ -2,8 +2,8 @@ h1 Welcome#index
 p Find me in app/views/welcome/index.slim
 - if user_signed_in?
   pre #{current_user.as_json}
-  = link_to "Logout", destroy_user_session_path, method: :delete
+  = link_to t('sessions.destroy.title'), destroy_user_session_path, method: :delete
 - else
-  = link_to "Sign in", new_user_session_path
+  = link_to t('sessions.new.title'), new_user_session_path
   br
-  = link_to "Sign up", new_user_registration_path
+  = link_to t('registrations.new.title'), new_user_registration_path

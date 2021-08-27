@@ -1,0 +1,8 @@
+tr:
+  errors:
+    not_found:
+      title: Sayfa Bulunamadı
+    internal_error:
+      title: Sunucu Hatası
+    unacceptable:
+      title: Kabul Edilmeyen İstek

@@ -1,0 +1,18 @@
+en:
+  registrations:
+    new:
+      title: Sign Up
+    create:
+      title: Sign Up
+  sessions:
+    new:
+      title: Sign In
+    destroy:
+      title: Logout
+  passwords:
+    new:
+      title: Reset My Password
+    create:
+      title: Reset Password
+    edit:
+      title: Reset Password

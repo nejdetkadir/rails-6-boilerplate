@@ -12,6 +12,15 @@ module RailsBoilerplate
     config.load_defaults 6.1
     config.exceptions_app = routes
 
+    # I18n Config
+    config.i18n.default_locale = :tr
+
+    # support Turkish and English as locales
+    I18n.available_locales = %i[tr en]
+
+    # auto-load nested translation folders ie: locales/models/foo.yml
+    I18n.load_path += Dir[Rails.root.join('config', 'locales', '**', '*.yml').to_s]
+
     # Configuration for the application, engines, and railties goes here.
     #
     # These settings can be overridden in specific environments using the files
