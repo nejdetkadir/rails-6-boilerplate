@@ -21,6 +21,7 @@ A starter template for [Ruby on Rails](https://rubyonrails.org/)
 - [faker](https://github.com/faker-ruby/faker)
 - [friendly_id](https://github.com/norman/friendly_id)
 - [pundit](https://github.com/varvet/pundit)
+- [font-awesome-sass](https://github.com/FortAwesome/font-awesome-sass)
 
 # Installation
 ## Prerequisites
