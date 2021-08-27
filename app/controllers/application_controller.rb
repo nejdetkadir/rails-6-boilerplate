@@ -10,6 +10,13 @@ class ApplicationController < ActionController::Base
     end
   end
 
+  protected
+
+  def check_admin
+    # Use with: before_action :check_admin
+    redirect_back(fallback_location: root_path, alert: 'You are not authorized to access') unless current_user.admin?
+  end
+
   private
   
   def user_not_authorized
