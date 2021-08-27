@@ -22,6 +22,7 @@ A starter template for [Ruby on Rails](https://rubyonrails.org/)
 - [friendly_id](https://github.com/norman/friendly_id)
 - [pundit](https://github.com/varvet/pundit)
 - [font-awesome-sass](https://github.com/FortAwesome/font-awesome-sass)
+- [recaptcha](https://github.com/ambethia/recaptcha)
 
 # Installation
 ## Prerequisites
