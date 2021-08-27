@@ -15,4 +15,8 @@ class Setting < RailsSettings::Base
   field :omniauth_github_client_secret, default: "", type: :string
   field :omniauth_facebook_client_id, default: "", type: :string
   field :omniauth_facebook_client_secret, default: "", type: :string
+
+  # Google Recaptcha
+  field :recaptcha_site_key, default: "", type: :string
+  field :recaptcha_secret_key, default: "", type: :string
 end

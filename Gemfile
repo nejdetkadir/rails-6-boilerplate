@@ -34,6 +34,7 @@ gem 'rails-settings-cached'
 gem 'friendly_id', '~> 5.4.0'
 gem "pundit"
 gem 'font-awesome-sass', '~> 5.15.1'
+gem "recaptcha"
 
 # image processing
 gem 'carrierwave', '~> 2.0'
