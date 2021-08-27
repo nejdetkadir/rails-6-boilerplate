@@ -153,6 +153,8 @@ GEM
     faraday-patron (1.0.0)
     faraday-rack (1.0.0)
     ffi (1.15.3)
+    font-awesome-sass (5.15.1)
+      sassc (>= 1.11)
     friendly_id (5.4.2)
       activerecord (>= 4.0.0)
     globalid (0.5.2)
@@ -358,6 +360,7 @@ DEPENDENCIES
   carrierwave (~> 2.0)
   devise!
   faker!
+  font-awesome-sass (~> 5.15.1)
   friendly_id (~> 5.4.0)
   humanize
   jbuilder (~> 2.7)

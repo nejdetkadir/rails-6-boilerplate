@@ -33,6 +33,7 @@ gem 'sitemap_generator'
 gem 'rails-settings-cached'
 gem 'friendly_id', '~> 5.4.0'
 gem "pundit"
+gem 'font-awesome-sass', '~> 5.15.1'
 
 # image processing
 gem 'carrierwave', '~> 2.0'
