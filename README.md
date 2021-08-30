@@ -30,7 +30,8 @@ A starter template for [Ruby on Rails](https://rubyonrails.org/)
   - [pundit](https://github.com/varvet/pundit)
   - [font-awesome-sass](https://github.com/FortAwesome/font-awesome-sass)
   - [recaptcha](https://github.com/ambethia/recaptcha)
-
+  - [whenever](https://github.com/javan/whenever)
+  
 # Installation
 ## Prerequisites
 - [Ruby](https://rvm.io/)
