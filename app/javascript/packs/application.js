@@ -14,14 +14,16 @@ ActiveStorage.start();
 
 import TurbolinksAdapter from "vue-turbolinks";
 import Vue from "vue/dist/vue.esm";
-import App from "../components/app.vue";
+import store from "../src/store/index"
 
 Vue.use(TurbolinksAdapter);
 
+// components
+import App from "../src/components/app.vue";
 Vue.component("app", App);
 
 document.addEventListener("turbolinks:load", () => {
   new Vue({
-    el: "[data-behavior=vue]",
-  });
+    store
+  }).$mount("[data-behavior=vue]")
 });
