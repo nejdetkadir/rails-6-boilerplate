@@ -5,8 +5,6 @@ A starter template for [Ruby on Rails](https://rubyonrails.org/) with [Vue](http
 
 ![logo](doc/logo.png)
 
-![logo](doc/logo.png)
-
 # Features
 - [Vue](https://vuejs.org/) and [vuex](https://vuex.vuejs.org/) integrations
 - Custom error pages
