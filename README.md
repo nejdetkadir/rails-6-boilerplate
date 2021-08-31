@@ -3,6 +3,8 @@
 # Rails Boilerplate
 A starter template for [Ruby on Rails](https://rubyonrails.org/)
 
+![logo](doc/logo.png)
+
 # Features
 - Custom error pages
 - [I18n support](https://guides.rubyonrails.org/i18n.html)
@@ -31,7 +33,10 @@ A starter template for [Ruby on Rails](https://rubyonrails.org/)
   - [font-awesome-sass](https://github.com/FortAwesome/font-awesome-sass)
   - [recaptcha](https://github.com/ambethia/recaptcha)
   - [whenever](https://github.com/javan/whenever)
-  
+
+# Branches
+  - [vue-starter](https://github.com/nejdetkadir/rails-boilerplate/tree/vue-starter)
+
 # Installation
 ## Prerequisites
 - [Ruby](https://rvm.io/)
