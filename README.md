@@ -1,11 +1,14 @@
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/37165033253842d78006d961e892ec02)](https://www.codacy.com/gh/nejdetkadir/rails-boilerplate/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=nejdetkadir/rails-boilerplate&amp;utm_campaign=Badge_Grade)
 
 # Rails Boilerplate
-A starter template for [Ruby on Rails](https://rubyonrails.org/)
+A starter template for [Ruby on Rails](https://rubyonrails.org/) with [Vue](https://vuejs.org/)
+
+![logo](doc/logo.png)
 
 ![logo](doc/logo.png)
 
 # Features
+- [Vue](https://vuejs.org/) and [vuex](https://vuex.vuejs.org/) integrations
 - Custom error pages
 - [I18n support](https://guides.rubyonrails.org/i18n.html)
   - English
@@ -41,7 +44,6 @@ A starter template for [Ruby on Rails](https://rubyonrails.org/)
 ## Prerequisites
 - [Ruby](https://rvm.io/)
 - [NodeJS (>=10.x)](https://nodejs.org/en/download/package-manager/#debian-and-ubuntu-based-linux-distributions)
-- [Yarn](https://yarnpkg.com/lang/en/docs/install/#debian-stable)
 - [PostgreSQL](https://www.postgresql.org/download/)
 - [ImageMagick](https://imagemagick.org/) `sudo apt-get install imagemagick libmagickcore-dev libmagickwand-dev`
 
@@ -50,12 +52,6 @@ A starter template for [Ruby on Rails](https://rubyonrails.org/)
 
   ```bash
   bundle install
-  ```
-
-- Install asset dependencies:
-
-  ```bash
-  yarn install
   ```
 
 - Create database, migrate tables and run the seed data:
