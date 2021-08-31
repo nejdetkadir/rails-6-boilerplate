@@ -35,6 +35,9 @@ A starter template for [Ruby on Rails](https://rubyonrails.org/) with [Vue](http
   - [recaptcha](https://github.com/ambethia/recaptcha)
   - [whenever](https://github.com/javan/whenever)
 
+# Example applications
+- [rails-vue-draggable-crud](https://github.com/nejdetkadir/rails-vue-draggable-crud)
+
 # Installation
 ## Prerequisites
 - [Ruby](https://rvm.io/)
