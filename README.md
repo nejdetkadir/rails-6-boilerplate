@@ -35,13 +35,11 @@ A starter template for [Ruby on Rails](https://rubyonrails.org/) with [Vue](http
   - [recaptcha](https://github.com/ambethia/recaptcha)
   - [whenever](https://github.com/javan/whenever)
 
-# Branches
-  - [vue-starter](https://github.com/nejdetkadir/rails-boilerplate/tree/vue-starter)
-
 # Installation
 ## Prerequisites
 - [Ruby](https://rvm.io/)
 - [NodeJS (>=10.x)](https://nodejs.org/en/download/package-manager/#debian-and-ubuntu-based-linux-distributions)
+- [Yarn](https://yarnpkg.com/lang/en/docs/install/#debian-stable)
 - [PostgreSQL](https://www.postgresql.org/download/)
 - [ImageMagick](https://imagemagick.org/) `sudo apt-get install imagemagick libmagickcore-dev libmagickwand-dev`
 
@@ -50,6 +48,12 @@ A starter template for [Ruby on Rails](https://rubyonrails.org/) with [Vue](http
 
   ```bash
   bundle install
+  ```
+
+- Install asset dependencies:
+
+  ```bash
+  yarn install
   ```
 
 - Create database, migrate tables and run the seed data:
